@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c54fc60b.chunk.css",
+    "main.js": "/static/js/main.15bf3b60.chunk.js",
+    "main.js.map": "/static/js/main.15bf3b60.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d5ae1225.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d5ae1225.js.map",
+    "static/js/2.29c8c130.chunk.js": "/static/js/2.29c8c130.chunk.js",
+    "static/js/2.29c8c130.chunk.js.map": "/static/js/2.29c8c130.chunk.js.map",
+    "static/js/3.f291ba74.chunk.js": "/static/js/3.f291ba74.chunk.js",
+    "static/js/3.f291ba74.chunk.js.map": "/static/js/3.f291ba74.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c54fc60b.chunk.css.map": "/static/css/main.c54fc60b.chunk.css.map",
+    "static/js/2.29c8c130.chunk.js.LICENSE.txt": "/static/js/2.29c8c130.chunk.js.LICENSE.txt",
+    "static/media/ImagenProyectoLazy.c7cb30b7.jpg": "/static/media/ImagenProyectoLazy.c7cb30b7.jpg",
+    "static/media/MiLogo.2707effe.png": "/static/media/MiLogo.2707effe.png",
+    "static/media/cancel.d8f4216c.png": "/static/media/cancel.d8f4216c.png",
+    "static/media/github.af867a0b.png": "/static/media/github.af867a0b.png",
+    "static/media/gmail.ed25b468.png": "/static/media/gmail.ed25b468.png",
+    "static/media/linkedin.0022272b.png": "/static/media/linkedin.0022272b.png",
+    "static/media/styles.css": "/static/media/memphis-colorful2.c659f5f4.png",
+    "static/media/menu.b6d20217.png": "/static/media/menu.b6d20217.png",
+    "static/media/myPic.691dffab.jpg": "/static/media/myPic.691dffab.jpg",
+    "static/media/whatsapp.11c7509d.png": "/static/media/whatsapp.11c7509d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5ae1225.js",
+    "static/js/2.29c8c130.chunk.js",
+    "static/css/main.c54fc60b.chunk.css",
+    "static/js/main.15bf3b60.chunk.js"
+  ]
+}
