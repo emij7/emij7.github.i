@@ -194,6 +194,13 @@ const list = [
         'plataforma':'Platzi',
         'important':true,
         'link':'https://platzi.com/p/emij7/curso/2193-dom/diploma/detalle/'
+    },
+    {
+        'id':29,
+        'name': 'Curso de estructura de datos con Javascript',
+        'plataforma':'Platzi',
+        'important':true,
+        'link':'https://platzi.com/p/emij7/curso/2156-estructuras-datos/diploma/detalle/'
     }
 
 ]

@@ -9,6 +9,9 @@ body {
   background-image: url(../images/memphis-colorful2.png);
   overflow-x: hidden;
 }
+html{
+  scroll-behavior: smooth;
+}
 p,
 h2,
 h3 {
