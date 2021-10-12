@@ -22,7 +22,7 @@ const NavbarMenu = () =>{
                     :'navbar__links--empty'
             :'navbar__links--row'
             }>
-                <a href="#about" onClick={handleClick}>SOBRE MI</a>
+                <a href="#about" onClick={()=>handleClick()}>SOBRE MI</a>
                 <a href="#projects" onClick={handleClick}>PROYECTOS</a>
                 <a href="#certifications" onClick={handleClick}>CERTIFICADOS</a>
                 <a href="#contact" onClick={handleClick}>CONTACTO</a>

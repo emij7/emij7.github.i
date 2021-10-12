@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 0 1rem;
+  margin: 0.7rem 1rem;
   &__network {
     display: flex;
     width: 300px;
@@ -12,7 +12,10 @@
     margin: 0 auto;
     & img {
       height: 5rem;
-      margin: 2rem;
+      margin: 1rem;
+    }
+    & a {
+      text-decoration: underline;
     }
   }
   &__title {
@@ -25,12 +28,14 @@
     text-align: center;
   }
   &__back-to-top-link {
-    margin: 0.4rem 1rem;
-    text-align: center;
-    grid-column-start: 1;
-    grid-column-end: -1;
-    color: $secondary-color;
-    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    & a {
+      margin: 0.4rem 1rem;
+      text-align: center;
+      color: $secondary-color;
+      text-decoration: underline;
+    }
   }
 }
 @media screen and (min-width: $medium) {
@@ -40,8 +45,15 @@
     justify-content: space-evenly;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: $big) {
   .footer__carriage-return--display {
     display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    &__network {
+      flex-direction: column;
+    }
   }
 }

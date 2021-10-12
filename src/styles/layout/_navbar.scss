@@ -10,12 +10,14 @@
     opacity: 1;
   }
 }
-
+.aaaa {
+  border: 0.2rem solid #1c6ea4;
+  border-radius: 1rem;
+}
 .navbar {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   font-weight: 500;
-  grid-template-columns: 65% 35%;
-  height: 88.8px;
   width: 100%;
   border-bottom: 0.4rem solid $primary-color;
   &__links {
@@ -25,6 +27,7 @@
     margin-left: 0.7rem;
     justify-content: center;
     align-items: flex-end;
+    width: 70%;
     & a {
       color: $secondary-color;
       border-left: 0.2rem solid $primary-color;
@@ -66,6 +69,7 @@
     height: 100%;
     & img {
       height: 5rem;
+      margin: 0.4rem;
     }
   }
   &__menu-icon {
@@ -81,6 +85,9 @@
   &__button-container {
     width: 5rem;
     height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (min-width: $medium) {
@@ -91,6 +98,7 @@
     }
     &__links {
       align-items: center;
+      margin: 1rem;
       &--row {
         display: grid;
         grid-template-columns: repeat(4, 25%);
@@ -99,11 +107,18 @@
       }
       & a {
         color: $secondary-color;
-        border: none;
         text-align: center;
         font-size: 1.1rem;
         font-weight: bold;
-        background-color: white;
+        border: 0.2rem solid $primary-color;
+        border-radius: 1rem;
+        background-color: $primary-color;
+        color: white;
+        font-family: monospace;
+        margin: 0.1rem;
+        &:hover {
+          background-color: $titles-color;
+        }
       }
     }
   }

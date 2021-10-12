@@ -38,6 +38,9 @@
       font-family: monospace;
       font-weight: bold;
       font-size: 1rem;
+      &-tech {
+        font-size: 1rem;
+      }
     }
     &-link {
       background-color: $primary-color;
@@ -46,6 +49,7 @@
       font-family: monospace;
       font-weight: bold;
       font-size: 1rem;
+      border: 0.2rem solid $primary-color;
       margin: 0.1rem;
       &:hover {
         background-color: $titles-color;

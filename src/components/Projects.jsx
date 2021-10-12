@@ -22,7 +22,7 @@ const Projects = () =>{
             <div className='projects__list'>
                 <input type="checkbox" className='projects__read-more' id="projects-1" />
                 <div className='projects__box'>
-                    <p className='projects__box-text'>LAZY LOADING</p>
+                    <p className='projects__box-text'>LAZY LOADING - <span className='projects__box-text-tech'>(vanilla JS)</span></p>
                     <img src={lazy} alt="Imagen proyecto lazy loading" className='projects__box-img'/>
                     <a className='projects__box-link' target='_blank' rel="noreferrer" href="https://emij7.github.io/Manipulacion-DOM-2/">Página del proyecto</a>
                     <a className='projects__box-link' target='_blank' rel="noreferrer" href="https://github.com/emij7/Manipulacion-DOM-2">Código GITHUB</a>

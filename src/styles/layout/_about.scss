@@ -17,24 +17,23 @@
     flex-direction: column;
     margin: 0.4rem 0;
     & img {
-      border: 0.3rem double $secondary-color;
-      max-width: 80%;
-    }
-    & figcaption {
-      font-size: 0.9rem;
-      text-decoration: underline;
+      border-radius: 50%;
+      border: 0.1rem solid $secondary-color;
+      max-width: 60%;
+      max-height: 300px;
     }
   }
 }
 .about {
   margin: 0.4rem 1rem;
+  &__container {
+    border-bottom: 0.2rem solid $primary-color;
+  }
+
   &__thanks {
     color: $primary-color;
     margin-top: 0.4rem;
     text-align: center;
-  }
-  &__container {
-    border-bottom: 0.2rem solid $primary-color;
   }
 }
 @media screen and (min-width: $medium) {
@@ -46,12 +45,19 @@
       font-size: 2.5rem;
       margin: 0.4rem 4rem;
     }
+    &__figure img {
+      max-width: none;
+    }
   }
   .about {
-    margin: 0.4rem 4rem;
     & p {
       font-size: 1.5rem;
       margin: 2rem 0;
+    }
+    &__information {
+      align-items: center;
+      display: flex;
+      margin: 0.4rem 1rem;
     }
   }
 }
