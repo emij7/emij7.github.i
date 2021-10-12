@@ -10,10 +10,19 @@
     opacity: 1;
   }
 }
-.aaaa {
-  border: 0.2rem solid #1c6ea4;
-  border-radius: 1rem;
+@keyframes slideOutMenu {
+  from {
+    transform: scaley(1);
+    transform-origin: top;
+    opacity: 1;
+  }
+  to {
+    transform-origin: top;
+    transform: scaley(0);
+    opacity: 1;
+  }
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -57,7 +66,9 @@
       top: calc(100% + 0.3rem);
       width: 100vw;
       opacity: 0;
-      transform: scaley(0);
+      animation-name: slideOutMenu;
+      animation-duration: 450ms;
+      // transform: scaley(0);
     }
     &--empty {
       display: none;
