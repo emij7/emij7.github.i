@@ -7,7 +7,8 @@ const About = () =>{
     return(
         <div className='about__container'>
             <div className='title'>
-                <h2>Ignacio Emiliano Juárez </h2>
+                <h1>Ignacio Emiliano Juárez </h1>
+                <h2>Front End Web Developer</h2>
             </div>
             <div className="about__information" id='about'>
                 <figure className='title__figure'>
