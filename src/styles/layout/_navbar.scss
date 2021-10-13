@@ -19,7 +19,7 @@
   to {
     transform-origin: top;
     transform: scaley(0);
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -58,6 +58,7 @@
       width: 100vw;
       animation-name: slideInMenu;
       animation-duration: 450ms;
+      z-index: 1;
     }
     &--disappear {
       position: absolute;
@@ -68,7 +69,17 @@
       opacity: 0;
       animation-name: slideOutMenu;
       animation-duration: 450ms;
+      z-index: 1;
       // transform: scaley(0);
+      & p {
+        color: $secondary-color;
+        border-left: 0.2rem solid $primary-color;
+        border-right: 0.2rem solid $primary-color;
+        border-bottom: 0.2rem solid $primary-color;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
     }
     &--empty {
       display: none;

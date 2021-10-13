@@ -18,7 +18,30 @@ const NavbarMenu = () =>{
                     <img src={menu?cancel:menuIcon} alt="Deploy menu icon" />
                 </div>
             </button>
-            <div className={currentWidth<768?
+            {currentWidth<768?
+            menu?
+                <div className='navbar__links--appear'>
+                    <a href="#about" onClick={()=>handleClick()}>SOBRE MI</a>
+                    <a href="#projects" onClick={()=>handleClick()}>PROYECTOS</a>
+                    <a href="#certifications" onClick={()=>handleClick()}>CERTIFICADOS</a>
+                    <a href="#contact" onClick={()=>handleClick()}>CONTACTO</a>
+                </div>
+                :<div className={firstLoad?'navbar__links--empty':'navbar__links--disappear'}>
+                <p>SOBRE MI</p>
+                <p>PROYECTOS</p>
+                <p>CERTIFICADOS</p>
+                <p>CONTACTO</p>
+            </div>
+
+            :
+            <div className='navbar__links--row'>
+                <a href="#about" onClick={()=>handleClick()}>SOBRE MI</a>
+                <a href="#projects" onClick={()=>handleClick()}>PROYECTOS</a>
+                <a href="#certifications" onClick={()=>handleClick()}>CERTIFICADOS</a>
+                <a href="#contact" onClick={()=>handleClick()}>CONTACTO</a>
+            </div>    
+        }
+            {/* <div className={currentWidth<768?
              menu?
                     'navbar__links--appear'
                     :firstLoad?
@@ -30,7 +53,7 @@ const NavbarMenu = () =>{
                 <a href="#projects" onClick={handleClick}>PROYECTOS</a>
                 <a href="#certifications" onClick={handleClick}>CERTIFICADOS</a>
                 <a href="#contact" onClick={handleClick}>CONTACTO</a>
-            </div>
+            </div> */}
         </nav>
     )
 }
