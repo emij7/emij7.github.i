@@ -8,7 +8,7 @@ const About = () =>{
         <div className='about__container'>
             <div className='title'>
                 <h1>Ignacio Emiliano Juárez </h1>
-                <h2>Front End Web Developer</h2>
+                <h2>FRONT END WEB DEVELOPER</h2>
             </div>
             <div className="about__information" id='about'>
                 <figure className='title__figure'>
