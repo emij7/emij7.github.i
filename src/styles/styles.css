@@ -86,7 +86,7 @@ h3 {
   width: 70%;
 }
 .navbar__links a {
-  color: #f7931a;
+  color: #f1af5e;
   border-left: 0.2rem solid #21216b;
   border-right: 0.2rem solid #21216b;
   border-bottom: 0.2rem solid #21216b;
@@ -169,7 +169,7 @@ h3 {
     gap: 0.2rem;
   }
   .navbar__links a {
-    color: #f7931a;
+    color: #f1af5e;
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
@@ -216,7 +216,7 @@ h3 {
 }
 .title__figure img {
   border-radius: 50%;
-  border: 0.1rem solid #f7931a;
+  border: 0.1rem solid #f1af5e;
   max-width: 60%;
   max-height: 300px;
 }
@@ -504,7 +504,7 @@ h3 {
   max-width: 100%;
 }
 .projects__box-text {
-  background-color: #f7931a;
+  background-color: #f1af5e;
   font-family: monospace;
   font-weight: bold;
   font-size: 1rem;
@@ -551,7 +551,7 @@ h3 {
   cursor: pointer;
   display: inline-block;
   line-height: 3;
-  border: 1px solid #f7931a;
+  border: 1px solid #f1af5e;
   border-radius: 0.25em;
   grid-column-start: 1;
   grid-column-end: -1;
@@ -611,7 +611,7 @@ h3 {
 }
 .certif__list a {
   align-items: center;
-  background-color: #f7931a;
+  background-color: #f1af5e;
   display: flex;
   font-family: monospace;
   font-weight: bold;
@@ -626,7 +626,7 @@ h3 {
   border: 0.2rem solid black;
 }
 .certif__search {
-  border-color: #f7931a;
+  border-color: #f1af5e;
   height: 2rem;
   min-width: 50%;
   width: 15rem;
@@ -678,7 +678,7 @@ h3 {
 .footer__back-to-top-link a {
   margin: 0.4rem 1rem;
   text-align: center;
-  color: #f7931a;
+  color: #f1af5e;
   text-decoration: underline;
 }
 
