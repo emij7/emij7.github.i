@@ -1,6 +1,7 @@
 import React from 'react'
 import lazy from '../images/ImagenProyectoLazy.jpg'
 import blank from '../images/blankProject.png'
+import superApp from '../images/superApp.png'
 
 const Projects = () =>{
     const changeOpacity = ()=>{
@@ -22,6 +23,13 @@ const Projects = () =>{
             <div className='projects__list'>
                 <input type="checkbox" className='projects__read-more' id="projects-1" />
                 <div className='projects__box'>
+                    <p className='projects__box-text'>Super-App - <span className='projects__box-text-tech'>(React.JS)</span></p> 
+                    <p className='projects__box-description'>Armar equipo de super-heroes</p>
+                    <img src={superApp} alt="Imagen proyecto super app" className='projects__box-img'/>
+                    <a className='projects__box-link' target='_blank' rel="noreferrer" href="https://emij7.github.io/super-app/">Página del proyecto</a>
+                    <a className='projects__box-link' target='_blank' rel="noreferrer" href="https://github.com/emij7/super-app">Código GITHUB</a>
+                </div>
+                <div className='projects__box'>
                     <p className='projects__box-text'>LAZY LOADING - <span className='projects__box-text-tech'>(vanilla JS)</span></p>
                     <p className='projects__box-description'>Manipulación básica del DOM</p>
                     <div>
@@ -29,13 +37,6 @@ const Projects = () =>{
                     </div>
                     <a className='projects__box-link' target='_blank' rel="noreferrer" href="https://emij7.github.io/Manipulacion-DOM-2/">Página del proyecto</a>
                     <a className='projects__box-link' target='_blank' rel="noreferrer" href="https://github.com/emij7/Manipulacion-DOM-2">Código GITHUB</a>
-                </div>
-                <div className='projects__box'>
-                    <p className='projects__box-text'>Próximamente</p> 
-                    <p className='projects__box-description'>...</p>
-                    <img src={blank} alt="Imagen en blanco. A llenar con proyecto" className='projects__box-img'/>
-                    <p className='projects__box-link' href="/#">...</p>
-                    <p className='projects__box-link' href="/#">...</p>
                 </div>
                 <div className='projects__box'>
                     <p className='projects__box-text'>Próximamente</p> 
