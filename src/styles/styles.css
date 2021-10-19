@@ -511,6 +511,7 @@ h3 {
 .projects__box-img {
   max-height: 100%;
   max-width: 100%;
+  padding: 0.4rem;
 }
 .projects__box-text {
   background-color: #f1af5e;
@@ -663,6 +664,9 @@ h3 {
   align-items: center;
   align-content: space-evenly;
   margin: 0 auto;
+}
+.footer__network-text {
+  color: #21216b;
 }
 .footer__network img {
   height: 5rem;

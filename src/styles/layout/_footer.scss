@@ -10,6 +10,9 @@
     align-items: center;
     align-content: space-evenly;
     margin: 0 auto;
+    &-text {
+      color: $primary-color;
+    }
     & img {
       height: 5rem;
       margin: 1rem;

@@ -18,10 +18,10 @@ const Footer = () =>{
                     <img src={gmail} alt="g-mail logo" /><a rel="noreferrer" target='_blank' href='mailto:juarezignacioemiliano@gmail.com' className="footer__network-text">juarezignacioemiliano<br className='footer__carriage-return--display'/>@gmail.com</a>
                 </div>
                 <div className="footer__network">
-                    <img src={linkedin} alt="linkedin logo" /><a rel="noreferrer" target='_blank' href="https://www.linkedin.com/in/ignacio-emiliano-juarez/">/ignacio-emiliano-juarez/</a>
+                    <img src={linkedin} alt="linkedin logo" /><a rel="noreferrer" target='_blank' href="https://www.linkedin.com/in/ignacio-emiliano-juarez/" className="footer__network-text">/ignacio-emiliano-juarez/</a>
                 </div>
                 <div className="footer__network">
-                    <img src={github} alt="github logo" /><a rel="noreferrer" target='_blank' href="https://github.com/emij7">github.com/emij7</a>
+                    <img src={github} alt="github logo" /><a rel="noreferrer" target='_blank' href="https://github.com/emij7" className="footer__network-text">github.com/emij7</a>
                 </div>
             </div>
                 <div className='footer__back-to-top-link'>
