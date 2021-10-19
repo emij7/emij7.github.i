@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.beedc970.chunk.css",
-    "main.js": "/static/js/main.d72161ac.chunk.js",
-    "main.js.map": "/static/js/main.d72161ac.chunk.js.map",
+    "main.css": "/static/css/main.b71faf94.chunk.css",
+    "main.js": "/static/js/main.48da3fc8.chunk.js",
+    "main.js.map": "/static/js/main.48da3fc8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d5ae1225.js",
     "runtime-main.js.map": "/static/js/runtime-main.d5ae1225.js.map",
     "static/js/2.29c8c130.chunk.js": "/static/js/2.29c8c130.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f291ba74.chunk.js": "/static/js/3.f291ba74.chunk.js",
     "static/js/3.f291ba74.chunk.js.map": "/static/js/3.f291ba74.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.beedc970.chunk.css.map": "/static/css/main.beedc970.chunk.css.map",
+    "static/css/main.b71faf94.chunk.css.map": "/static/css/main.b71faf94.chunk.css.map",
     "static/js/2.29c8c130.chunk.js.LICENSE.txt": "/static/js/2.29c8c130.chunk.js.LICENSE.txt",
     "static/media/ImagenProyectoLazy.c7cb30b7.jpg": "/static/media/ImagenProyectoLazy.c7cb30b7.jpg",
     "static/media/MiLogo.2707effe.png": "/static/media/MiLogo.2707effe.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.d5ae1225.js",
     "static/js/2.29c8c130.chunk.js",
-    "static/css/main.beedc970.chunk.css",
-    "static/js/main.d72161ac.chunk.js"
+    "static/css/main.b71faf94.chunk.css",
+    "static/js/main.48da3fc8.chunk.js"
   ]
 }
