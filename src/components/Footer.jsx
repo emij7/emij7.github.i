@@ -25,7 +25,7 @@ const Footer = () =>{
                 </div>
             </div>
                 <div className='footer__back-to-top-link'>
-                    <a  href="#navbar">Volver arriba</a>
+                    <a  href="#navbar">Volver arriba.</a>
                 </div>
         </footer>
     )
